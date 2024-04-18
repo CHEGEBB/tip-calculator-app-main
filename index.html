@@ -14,28 +14,31 @@
   <div class="container">
     <div class="left">
       Bill
-
-      Select Tip %
-      5%
-      10%
-      15%
-      25%
-      50%
-      Custom
-    
-      Number of People
-    </div>
+      <label for="bill">Bill</label>
+      <input type="number" id="bill" placeholder="0.00" />
+      <div class="tip">
+        Select Tip %
+        <div class="tip-percent">
+          <button class="tip-btn">5%</button>
+          <button class="tip-btn">10%</button>
+          <button class="tip-btn">15%</button>
+          <button class="tip-btn">25%</button>
+          <button class="tip-btn">50%</button>
+          <input type="number" class="tip-btn" placeholder="Custom" />
+          <input type="number" class="tip-btn" placeholder="" />
+          Number of People
+        </div>
+      </div>
+      </div>
     <div class="right">
       Tip Amount
   / person
-
   Total
   / person
-
   Reset
-
     </div>
   </div>
+
 
 
   <script src="./script.js"></script>
