@@ -15,7 +15,7 @@
     <div class="left">
       Bill
       <label for="bill">Bill</label>
-      <input type="number" id="bill" placeholder="0.00" />
+      <input type="number" id="bill" placeholder="$" />
       <div class="tip">
         Select Tip %
         <div class="tip-percent">
@@ -31,17 +31,23 @@
       </div>
       </div>
     <div class="right">
-      Tip Amount
-  / person
-  Total
-  / person
-  Reset
+      <div class="tip-ammount">
+        Tip Amount
+        / person
+      </div>
+      <div class="total">
+        Total
+        / person
+      </div>
+      <div class="reset">
+        <button class="reset-btn">Reset</button>
+      </div>
     </div>
   </div>
 
 
 
-  <script src="./script.js"></script>
+  <script src="./index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
