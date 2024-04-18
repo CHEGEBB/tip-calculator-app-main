@@ -1,5 +1,6 @@
 $color-body: hsl(185, 41%, 84%);
 $cont-color: hsl(0, 0%, 100%);
+
 body{
     background-color: $color-body;
 }
@@ -11,4 +12,5 @@ body{
     text-align: center;
     margin-top: 200px;
     height:400px ;
+    padding: 20px;
 }
