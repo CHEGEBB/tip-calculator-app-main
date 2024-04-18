@@ -1,5 +1,13 @@
 body {
-  background-color: hsl(172, 67%, 45%);
+  background-color: hsl(185, 41%, 84%);
+}
+
+.container {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
