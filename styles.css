@@ -11,6 +11,14 @@ body {
   margin-top: 200px;
   height: 400px;
   padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.right {
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 18px;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */

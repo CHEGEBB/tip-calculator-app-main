@@ -1,5 +1,6 @@
 $color-body: hsl(185, 41%, 84%);
 $cont-color: hsl(0, 0%, 100%);
+$left-color: hsl(183, 100%, 15%);
 
 body{
     background-color: $color-body;
@@ -13,4 +14,12 @@ body{
     margin-top: 200px;
     height:400px ;
     padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.right{
+    background-color: $left-color;
+    border-radius: 18px;
+    padding: 20px;
+    
 }
