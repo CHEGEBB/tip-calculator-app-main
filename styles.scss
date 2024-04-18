@@ -1,9 +1,10 @@
 $color-body: hsl(185, 41%, 84%);
+$cont-color: hsl(0, 0%, 100%);
 body{
     background-color: $color-body;
 }
 .container{
-    background-color: white;
+    background-color:$cont-color;
     border-radius: 0px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     width: 800px;
