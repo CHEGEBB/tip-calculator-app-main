@@ -110,6 +110,7 @@ label {
   outline: none;
   cursor: pointer;
   border: none;
+  font-size: 24px;
   text-align: left;
 }
 
@@ -123,6 +124,7 @@ label {
   outline: none;
   cursor: pointer;
   border: none;
+  font-size: 24px;
 }
 
 .left input:hover, .people input:hover {
@@ -133,7 +135,7 @@ label {
 .tip-amount {
   display: flex;
   flex-direction: row;
-  gap: 120px;
+  gap: 80px;
   align-items: center;
   justify-content: center;
   margin-top: 40px;
@@ -145,7 +147,7 @@ label {
 .total {
   display: flex;
   flex-direction: row;
-  gap: 120px;
+  gap: 80px;
   align-items: center;
   justify-content: center;
   margin-top: 40px;

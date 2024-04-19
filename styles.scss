@@ -19,11 +19,12 @@ $font-family: 'Space Mono', monospace;
     outline: none;
     cursor: pointer;
     border: none;
+    font-size: 24px;
 }
 @mixin tips-styles{
     display: flex;
     flex-direction: row;
-    gap: 120px;
+    gap: 80px;
     align-items: center;
     justify-content: center;
     margin-top: 40px;
