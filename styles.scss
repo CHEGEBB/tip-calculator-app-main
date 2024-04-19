@@ -55,11 +55,11 @@ button {
 .row2 {
     @include row-styles;
 }
-.tip-btn input {
-    width: 100%;
+.custom-input input[type="number"] {
+    width: 70px;
     padding: 10px;
     border: none;
     border-radius: 5px;
     text-align: center;
+    background-color: red;
 }
-
