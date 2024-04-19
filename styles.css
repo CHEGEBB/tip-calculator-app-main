@@ -52,7 +52,7 @@ body {
   gap: 10px;
   align-items: center;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: -10px;
 }
 
@@ -64,6 +64,9 @@ body {
   padding: 10px 20px;
   cursor: pointer;
   width: 110px;
+  height: 50px;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .tip-percent button:hover {
@@ -218,6 +221,7 @@ label {
 
 .input-with-icon input[type=number] {
   padding-left: 30px;
+  text-align: right;
 }
 
 .input-with-icon .icon, .icon2 {
