@@ -48,14 +48,24 @@ body {
     background-color: $color-body;
     font-family: $font-family;
 }
-
+.header{
+    width: 220px;
+    text-align: center;
+    margin: 150px auto;
+}
+.header h1 {
+    color: $left-color;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
 .container {
     background-color: $cont-color;
     border-radius: 18px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 800px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: -80px;
     height: 400px;
     padding: 20px;
     display: flex;
