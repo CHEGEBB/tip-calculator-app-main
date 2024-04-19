@@ -255,7 +255,7 @@ label {
     margin: 50px auto;
   }
   .reset button {
-    width: 300px;
+    width: 250px;
     margin-top: 15px;
   }
   .tip-percent label {
@@ -266,6 +266,11 @@ label {
   }
   .tip-percent {
     margin-left: -20px;
+    background-color: red;
+    width: 300px;
+  }
+  .row2 {
+    flex-direction: row;
   }
   .tip-percent button {
     margin-top: 20px;
@@ -282,7 +287,9 @@ label {
     margin-left: -80px;
   }
   .custom-input input[type=number] {
-    width: 50px;
+    width: 80px;
+    margin-left: -2px;
+    margin-top: 20px;
   }
   .tip-percent {
     flex-direction: column;
