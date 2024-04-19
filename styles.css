@@ -238,32 +238,33 @@ label {
 
 @media screen and (max-width: 800px) {
   .container {
-    width: 100%;
+    width: 350px;
     flex-direction: column;
     gap: 20px;
-    height: 600px;
+    height: 800px;
   }
   .right {
-    width: 100%;
+    width: 300px;
+    height: 400px;
   }
   .left {
-    width: 100%;
+    width: 400px;
     margin-left: 0;
   }
   .header {
     margin: 50px auto;
   }
   .reset button {
-    width: 100%;
+    width: 200px;
   }
   .tip-percent label {
     margin-left: 0;
   }
   .tip-percent button {
-    width: 100%;
+    width: 50px;
   }
   .tip-percent {
-    margin-left: 0;
+    margin-left: -20px;
   }
   .tip-percent button {
     margin-top: 20px;
@@ -275,7 +276,7 @@ label {
     width: 100%;
   }
   .left input {
-    width: 100%;
+    width: 300px;
   }
   .custom-input input[type=number] {
     width: 100%;
