@@ -250,12 +250,14 @@ label {
     }
     .people input {
         width: 300px;
+        margin-left: -80px;
     }
     .left input {
         width: 300px;
+        margin-left: -80px;
     }
     .custom-input input[type="number"] {
-        width: 300px;
+        width: 50px;
     }
     .tip-percent {
         flex-direction: column;
