@@ -7,6 +7,14 @@ $common-flex: column;
     flex-direction: row;
     gap: 10px;
 }
+@mixin input-styles{
+    width: 350px;
+    padding: 10px;
+    border: 2px solid hsl(172, 67%, 45%);
+    border-radius: 5px;
+    text-align: right;
+    outline: none;
+}
 
 body {
     background-color: $color-body;
@@ -71,7 +79,7 @@ body {
     padding: 10px;
     border: 2px solid hsl(172, 67%, 45%);
     border-radius: 5px;
-    text-align: center;
+    text-align: right;
     outline: none;
 }
 .people{
@@ -87,4 +95,10 @@ label {
 .tip-percent label {
    text-align: left;
    margin-left: -270px;
+}
+.left input {
+    @include input-styles;
+}
+.people input {
+    @include input-styles;
 }
