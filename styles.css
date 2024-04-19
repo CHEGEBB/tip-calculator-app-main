@@ -245,7 +245,7 @@ label {
   }
   .right {
     width: 300px;
-    height: 400px;
+    height: 350px;
   }
   .left {
     width: 400px;
@@ -299,22 +299,22 @@ label {
     margin-top: 20px;
   }
   .tip-amount {
-    flex-direction: column;
+    flex-direction: row;
   }
   .total {
-    flex-direction: column;
+    flex-direction: row;
   }
   .tip-am {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .total-am {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .cash, .total-cash {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .per {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .input-with-icon input[type=number] {
     padding-left: 40px;
