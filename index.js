@@ -20,4 +20,28 @@ document.addEventListener('DOMContentLoaded',function (){
     });
 
 
+    let customPercentage;
+    CustomPercent.addEventListener('input',(e)=> {
+        let customPercentage;
+
+        CustomPercent.addEventListener('input', (e) => {
+            const value = parseFloat(e.target.value);
+            if (value <= 100) {
+                customPercentage = value;
+                console.log(customPercentage);
+            } else {
+                alert('Wrong percentage');
+            }
+        });
+       
+
+    });
+
+    let numberPeople;
+    NumberOfPeople.addEventListener('input',(e)=> {
+        numberPeople=parseFloat(e.target.value);
+        console.log(numberPeople);
+    });
+
+
 });
