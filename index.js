@@ -7,6 +7,5 @@ document.addEventListener('DOMContentLoaded',function (){
     const FiftyPercent =document.getElementById('tip-fifty');
     const CustomPercent =document.getElementById('percent-custom');
     const NumberOfPeople=document.getElementById('people');
-    console.log(NumberOfPeople);
 
 });
