@@ -97,6 +97,7 @@ label {
   border-radius: 5px;
   text-align: right;
   outline: none;
+  text-align: left;
 }
 
 .people input {

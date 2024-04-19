@@ -98,6 +98,7 @@ label {
 }
 .left input {
     @include input-styles;
+    text-align: left
 }
 .people input {
     @include input-styles;
