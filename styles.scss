@@ -1,25 +1,65 @@
 $color-body: hsl(185, 41%, 84%);
 $cont-color: hsl(0, 0%, 100%);
 $left-color: hsl(183, 100%, 15%);
+$common-flex: column;
+@mixin row-styles{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
 
-body{
+body {
     background-color: $color-body;
 }
-.container{
-    background-color:$cont-color;
+
+.container {
+    background-color: $cont-color;
     border-radius: 18px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 800px;
     text-align: center;
     margin-top: 200px;
-    height:400px ;
+    height: 400px;
     padding: 20px;
     display: flex;
     flex-direction: row;
 }
-.right{
+
+.right {
     background-color: $left-color;
     border-radius: 18px;
     padding: 20px;
-    
 }
+
+.left {
+    display: flex;
+    flex-direction: $common-flex;
+}
+
+.tip-percent {
+    display: flex;
+    flex-direction: $common-flex;
+    gap: 10px;
+}
+button {
+    background-color: $left-color;
+    color: $cont-color;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.row1 {
+    @include row-styles;
+}
+.row2 {
+    @include row-styles;
+}
+.tip-btn input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+

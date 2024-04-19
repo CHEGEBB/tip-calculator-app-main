@@ -21,4 +21,44 @@ body {
   padding: 20px;
 }
 
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.tip-percent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  background-color: hsl(183, 100%, 15%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.tip-btn input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
 /*# sourceMappingURL=styles.css.map */
