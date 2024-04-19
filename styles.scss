@@ -148,3 +148,13 @@ label {
 .cash, .total-cash{
     @include cash;
 }
+.reset button {
+    background-color: hsl(172, 67%, 45%);
+    color: $cont-color;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 110px;
+    margin-top: 70px;
+}
