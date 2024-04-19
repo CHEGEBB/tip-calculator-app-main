@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 $color-body: hsl(185, 41%, 84%);
 $cont-color: hsl(0, 0%, 100%);
 $left-color: hsl(183, 100%, 15%);
 $common-flex: column;
+$font-family: 'Space Mono', monospace;
 @mixin row-styles{
     display: flex;
     flex-direction: row;
@@ -21,7 +23,7 @@ $common-flex: column;
 @mixin tips-styles{
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 120px;
     align-items: center;
     justify-content: center;
     margin-top: 40px;
@@ -32,9 +34,16 @@ $common-flex: column;
 @mixin total-amount{
     display: flex;
     flex-direction: column;
+    width: 100px;
+}
+@mixin cash{
+    font-size: 30px;
+    color: hsl(172, 67%, 45%);
+    font-weight: bold;
 }
 body {
     background-color: $color-body;
+    font-family: $font-family;
 }
 
 .container {
@@ -135,4 +144,7 @@ label {
 }
 .total-am{
     @include total-amount;
+}
+.cash, .total-cash{
+    @include cash;
 }

@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 body {
   background-color: hsl(185, 41%, 84%);
+  font-family: "Space Mono", monospace;
 }
 
 .container {
@@ -121,7 +123,7 @@ label {
 .tip-amount {
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  gap: 120px;
   align-items: center;
   justify-content: center;
   margin-top: 40px;
@@ -133,7 +135,7 @@ label {
 .total {
   display: flex;
   flex-direction: row;
-  gap: 50px;
+  gap: 120px;
   align-items: center;
   justify-content: center;
   margin-top: 40px;
@@ -145,11 +147,19 @@ label {
 .tip-am {
   display: flex;
   flex-direction: column;
+  width: 100px;
 }
 
 .total-am {
   display: flex;
   flex-direction: column;
+  width: 100px;
+}
+
+.cash, .total-cash {
+  font-size: 30px;
+  color: hsl(172, 67%, 45%);
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=styles.css.map */
