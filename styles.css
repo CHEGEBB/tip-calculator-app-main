@@ -225,8 +225,11 @@ label {
   left: 20px;
   top: 50%;
   transform: translateY(-50%);
-  width: 20px;
-  height: 22px;
+}
+
+.icon2 img {
+  width: 10px;
+  height: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */
