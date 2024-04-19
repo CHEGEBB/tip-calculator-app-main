@@ -38,7 +38,7 @@ body {
   justify-content: center;
 }
 
-button {
+.tip-percent button {
   background-color: hsl(183, 100%, 15%);
   color: hsl(0, 0%, 100%);
   border: none;
