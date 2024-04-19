@@ -9,6 +9,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const NumberOfPeople = document.getElementById('people');
     const ResetButton = document.getElementById('reset-button');
     let overallPercentage;
+    const Cash = document.getElementById('cash');
+    const TotalCash = document.getElementById('total-cash');
+    let billValue;
 
     FivePercent.addEventListener('click', (e) => {
         e.preventDefault();
