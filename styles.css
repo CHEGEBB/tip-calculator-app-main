@@ -71,11 +71,16 @@ body {
 .custom-input input[type=number] {
   width: 110px;
   padding: 10px;
-  border: 2px solid hsl(172, 67%, 45%);
   border-radius: 5px;
   text-align: right;
   outline: none;
+  border: none;
   appearance: none;
+}
+
+.custom-input input[type=number]:hover {
+  color: hsl(0, 0%, 100%);
+  border: 2px solid hsl(172, 67%, 45%);
 }
 
 .people {
@@ -98,26 +103,31 @@ label {
 .left input {
   width: 350px;
   padding: 10px;
-  border: 2px solid hsl(172, 67%, 45%);
   border-radius: 5px;
   text-align: right;
   outline: none;
   -webkit-appearance: none;
   outline: none;
   cursor: pointer;
+  border: none;
   text-align: left;
 }
 
 .people input {
   width: 350px;
   padding: 10px;
-  border: 2px solid hsl(172, 67%, 45%);
   border-radius: 5px;
   text-align: right;
   outline: none;
   -webkit-appearance: none;
   outline: none;
   cursor: pointer;
+  border: none;
+}
+
+.left input:hover, .people input:hover {
+  color: hsl(0, 0%, 100%);
+  border: 2px solid hsl(172, 67%, 45%);
 }
 
 .tip-amount {
@@ -169,7 +179,7 @@ label {
   border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
-  width: 110px;
+  width: 300px;
   margin-top: 70px;
 }
 
