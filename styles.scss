@@ -23,12 +23,14 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: row;
+    gap: 200px;
 }
 
 .right {
     background-color: $left-color;
     border-radius: 18px;
     padding: 20px;
+    width: 600px;
 }
 
 .left {
