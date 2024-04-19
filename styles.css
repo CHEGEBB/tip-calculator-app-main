@@ -99,7 +99,7 @@ label {
 
 .tip-percent label {
   text-align: left;
-  margin-left: -270px;
+  margin-left: -250px;
 }
 
 .left input {
@@ -176,6 +176,7 @@ label {
   font-size: 40px;
   color: hsl(172, 67%, 45%);
   font-weight: bold;
+  margin-top: -15px;
 }
 
 .reset button {
@@ -208,11 +209,11 @@ label {
 
 .input-with-icon .icon {
   position: absolute;
-  left: 10px;
+  left: 20px;
   top: 50%;
   transform: translateY(-50%);
   width: 20px;
-  height: 20px;
+  height: 22px;
 }
 
 /*# sourceMappingURL=styles.css.map */
