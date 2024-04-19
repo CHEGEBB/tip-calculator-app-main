@@ -16,6 +16,13 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log('Overall percentage:', overallPercentage);
     });
 
+    TenPercent.addEventListener('click',(e)=> {
+
+        e.preventDefault();
+        overallPercentage=0.1;
+        console.log(overallPercentage);
+    });
+
 
     CustomPercent.addEventListener('input', (e) => {
         const value = parseFloat(e.target.value);
@@ -28,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    
+
 
     BillField.addEventListener('input', (e) => {
         billValue = parseFloat(e.target.value);
