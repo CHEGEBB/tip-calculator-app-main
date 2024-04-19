@@ -167,7 +167,7 @@ label {
 }
 
 .cash, .total-cash {
-  font-size: 30px;
+  font-size: 40px;
   color: hsl(172, 67%, 45%);
   font-weight: bold;
 }
@@ -181,6 +181,10 @@ label {
   cursor: pointer;
   width: 300px;
   margin-top: 70px;
+}
+
+.per {
+  color: hsl(184, 14%, 56%);
 }
 
 /*# sourceMappingURL=styles.css.map */
