@@ -204,6 +204,7 @@ label {
 
 .per {
   color: hsl(184, 14%, 56%);
+  font-weight: 700;
 }
 
 .input-with-icon {
