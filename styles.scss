@@ -23,7 +23,7 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: row;
-    gap: 200px;
+    gap: 50px;
 }
 
 .right {
@@ -36,6 +36,8 @@ body {
 .left {
     display: flex;
     flex-direction: $common-flex;
+    background-color: aqua;
+    width: 500px;
 }
 
 .tip-percent {
