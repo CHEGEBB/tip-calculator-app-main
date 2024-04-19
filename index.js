@@ -9,7 +9,13 @@ document.addEventListener('DOMContentLoaded',function (){
     const CustomPercent =document.getElementById('percent-custom');
     const NumberOfPeople=document.getElementById('people');
     const ResetButton =document.getElementById('reset-button');
+    let overallPercentage;
 
+
+
+    FivePercent.addEventListener('click',(e)=> {
+
+    });
 
 
     let billValue;
@@ -29,6 +35,7 @@ document.addEventListener('DOMContentLoaded',function (){
             if (value <= 100) {
                 customPercentage = value;
                 console.log(customPercentage);
+
             } else {
                 alert('Wrong percentage');
             }
@@ -42,7 +49,7 @@ document.addEventListener('DOMContentLoaded',function (){
         numberPeople=parseFloat(e.target.value);
         console.log(numberPeople);
     });
-    
+
 
 
 });
