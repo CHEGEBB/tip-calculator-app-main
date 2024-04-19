@@ -78,4 +78,16 @@ body {
   flex-direction: column;
 }
 
+label {
+  color: hsl(183, 100%, 15%);
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.tip-percent label {
+  text-align: left;
+  margin-left: -270px;
+}
+
 /*# sourceMappingURL=styles.css.map */

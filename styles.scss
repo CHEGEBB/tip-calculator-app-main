@@ -78,3 +78,13 @@ body {
     display:flex ;
     flex-direction: $common-flex;
 }
+label {
+    color: $left-color;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: left;
+}
+.tip-percent label {
+   text-align: left;
+   margin-left: -270px;
+}
