@@ -61,6 +61,8 @@ document.addEventListener("DOMContentLoaded", function () {
   NumberOfPeople.addEventListener("input", (e) => {
     numberPeople = parseFloat(e.target.value);
     console.log("Number of people:", numberPeople);
+    updateTipAmount();
+    updateTotalAmount();
   });
   
   function calculateTip() {
@@ -68,23 +70,33 @@ document.addEventListener("DOMContentLoaded", function () {
     return Tip;
   }
   function calculateTotal() {
-    Total = (billValue/NumberOfPeople) + calculateTip();
+    Total = billValue/numberPeople + calculateTip();
     return Total;
   }
 
   function updateTipAmount() {
     const tipAmount = calculateTip();
-    const tipAmountElement = document.getElementById("cash");
-    tipAmountElement.textContent = `$${tipAmount.toFixed(2)}`;
-  }
+    document.getElementById("cash").textContent = "$" + tipAmount.toFixed(2);
+    console.log("Tip amount:", tipAmount.toFixed(2));
+    }
+    function updateTotalAmount() {
+        const totalAmount = calculateTotal();
+        document.getElementById("total-cash").textContent = "$" + totalAmount.toFixed(2);
+    }
 
-  function updateTotalAmount() {
-    const totalAmount = calculateTotal();
-    const totalAmountElement = document.getElementById("total-cash");
-    totalAmountElement.textContent = `$${totalAmount.toFixed(2)}`;
-  }
 
-  // Call the functions to update the amounts
-  updateTipAmount();
-  updateTotalAmount();
+    ResetButton.addEventListener("click", (e) => {
+        e.preventDefault();
+        BillField.value = "";
+        NumberOfPeople.value = "";
+        FivePercent.checked = false;
+        TenPercent.checked = false;
+        FifteenPercent.checked = false;
+        TwentyFivePercent.checked = false;
+        FiftyPercent.checked = false;
+        CustomPercent.value = "";
+        document.getElementById("cash").textContent = "$0.00";
+        document.getElementById("total-cash").textContent = "$0.00";
+    });
+
 });

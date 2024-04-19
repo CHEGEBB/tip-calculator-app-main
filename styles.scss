@@ -25,7 +25,7 @@ $font-family: 'Space Mono', monospace;
 @mixin tips-styles{
     display: flex;
     flex-direction: row;
-    gap: 80px;
+    gap: 50px;
     align-items: center;
     justify-content: center;
     margin-top: 40px;
@@ -39,7 +39,7 @@ $font-family: 'Space Mono', monospace;
     width: 100px;
 }
 @mixin cash{
-    font-size: 40px;
+    font-size: 35px;
     color: hsl(172, 67%, 45%);
     font-weight: bold;
     margin-top: -15px;
