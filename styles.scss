@@ -54,6 +54,10 @@ body {
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
+    width: 110px;
+}
+.tip-percent button:hover {
+    background-color: hsl(183, 100%, 30%);
 }
 .row1 {
     @include row-styles;
