@@ -49,6 +49,7 @@ body {
 
 .tip-percent button:hover {
   background-color: hsl(172, 67%, 45%);
+  margin-top: 40px;
 }
 
 .row1 {
