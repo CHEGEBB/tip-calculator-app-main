@@ -20,14 +20,14 @@ body {
   background-color: hsl(183, 100%, 15%);
   border-radius: 18px;
   padding: 20px;
-  width: 600px;
+  width: 500px;
 }
 
 .left {
   display: flex;
   flex-direction: column;
   background-color: aqua;
-  width: 500px;
+  width: 550px;
 }
 
 .tip-percent {
