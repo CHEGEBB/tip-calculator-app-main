@@ -116,7 +116,6 @@ body {
     appearance: none;
 }
 .custom-input input[type="number"]:hover {
-    color: $cont-color;
     border: 2px solid hsl(172, 67%, 45%);
 }
 .people{
@@ -143,7 +142,6 @@ label {
     @include input-styles;
 }
 .left input:hover , .people input:hover {
-    color: $cont-color;
     border: 2px solid hsl(172, 67%, 45%);
 }
 .tip-amount{
