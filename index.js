@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded',function (){
         numberPeople=parseFloat(e.target.value);
         console.log(numberPeople);
     });
+    
 
 
 });
