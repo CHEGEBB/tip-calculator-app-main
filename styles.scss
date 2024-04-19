@@ -213,22 +213,28 @@ label {
 }
 // mobile styles
 @media screen and (max-width: 800px) {
+    body{
+        overflow-x: hidden;
+    }
     .container {
-        width: 350px;
+        width: 375px;
         flex-direction: column;
         gap: 20px;
-        height: 800px;
+        height: 850px;
+        margin-left: 2px;
     }
     .right {
-        width: 300px;
+        width: 350px;
         height: 350px;
+        margin-left: -10px;
+
     }
     .left {
         width: 400px;
         margin-left: 0;
     }
     .header {
-        margin: 50px auto;
+        margin: 100px auto;
     }
     .reset button {
         width: 250px;
@@ -256,6 +262,7 @@ label {
     .people input {
         width: 300px;
         margin-left: -80px;
+        margin-top: 10px;
     }
     .left input {
         width: 300px;
