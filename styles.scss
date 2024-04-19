@@ -36,7 +36,6 @@ body {
 .left {
     display: flex;
     flex-direction: $common-flex;
-    background-color: aqua;
     width: 550px;
 }
 
@@ -57,7 +56,7 @@ body {
     width: 110px;
 }
 .tip-percent button:hover {
-    background-color: hsl(183, 100%, 30%);
+    background-color: hsl(172, 67%, 45%);
 }
 .row1 {
     @include row-styles;
