@@ -93,6 +93,8 @@ label {
   font-size: 14px;
   margin-top: 10px;
   text-align: left;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .tip-percent label {
@@ -110,7 +112,8 @@ label {
   outline: none;
   cursor: pointer;
   border: none;
-  font-size: 24px;
+  font-weight: 700;
+  font-size: 19px;
   text-align: left;
 }
 
@@ -124,7 +127,8 @@ label {
   outline: none;
   cursor: pointer;
   border: none;
-  font-size: 24px;
+  font-weight: 700;
+  font-size: 19px;
 }
 
 .left input:hover, .people input:hover {
@@ -187,6 +191,28 @@ label {
 
 .per {
   color: hsl(184, 14%, 56%);
+}
+
+.input-with-icon {
+  position: relative;
+}
+
+.icon img {
+  width: 10px;
+  height: 10px;
+}
+
+.input-with-icon input[type=number] {
+  padding-left: 30px;
+}
+
+.input-with-icon .icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
