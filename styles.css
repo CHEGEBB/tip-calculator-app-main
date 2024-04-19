@@ -27,6 +27,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 550px;
+  margin-left: 20px;
 }
 
 .tip-percent {
@@ -36,6 +37,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 40px;
+  margin-left: -10px;
 }
 
 .tip-percent button {
@@ -71,6 +73,7 @@ body {
   border-radius: 5px;
   text-align: right;
   outline: none;
+  appearance: none;
 }
 
 .people {
@@ -97,6 +100,8 @@ label {
   border-radius: 5px;
   text-align: right;
   outline: none;
+  -webkit-appearance: none;
+  outline: none;
   text-align: left;
 }
 
@@ -106,6 +111,8 @@ label {
   border: 2px solid hsl(172, 67%, 45%);
   border-radius: 5px;
   text-align: right;
+  outline: none;
+  -webkit-appearance: none;
   outline: none;
 }
 
