@@ -16,8 +16,23 @@ $common-flex: column;
     outline: none;
     -webkit-appearance: none;
     outline: none;
+    cursor: pointer;
 }
-
+@mixin tips-styles{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: -10px;
+    text-align: left;
+    color: $cont-color;
+}
+@mixin total-amount{
+    display: flex;
+    flex-direction: column;
+}
 body {
     background-color: $color-body;
 }
@@ -108,4 +123,16 @@ label {
 }
 .people input {
     @include input-styles;
+}
+.tip-amount{
+    @include tips-styles;
+}
+.total{
+    @include tips-styles;
+}
+.tip-am{
+    @include total-amount;
+}
+.total-am{
+    @include total-amount;
 }

@@ -102,6 +102,7 @@ label {
   outline: none;
   -webkit-appearance: none;
   outline: none;
+  cursor: pointer;
   text-align: left;
 }
 
@@ -114,6 +115,41 @@ label {
   outline: none;
   -webkit-appearance: none;
   outline: none;
+  cursor: pointer;
+}
+
+.tip-amount {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: -10px;
+  text-align: left;
+  color: hsl(0, 0%, 100%);
+}
+
+.total {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: -10px;
+  text-align: left;
+  color: hsl(0, 0%, 100%);
+}
+
+.tip-am {
+  display: flex;
+  flex-direction: column;
+}
+
+.total-am {
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=styles.css.map */
