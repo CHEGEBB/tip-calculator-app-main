@@ -64,12 +64,11 @@ body {
 }
 
 .custom-input input[type=number] {
-  width: 70px;
+  width: 110px;
   padding: 10px;
   border: none;
   border-radius: 5px;
   text-align: center;
-  background-color: red;
 }
 
 /*# sourceMappingURL=styles.css.map */
