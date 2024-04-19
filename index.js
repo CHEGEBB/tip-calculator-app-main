@@ -23,6 +23,27 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log(overallPercentage);
     });
 
+    FifteenPercent.addEventListener('click',(e)=> {
+            e.preventDefault();
+            overallPercentage=0.15;
+            console.log(overallPercentage);
+
+    });
+
+    TwentyFivePercent.addEventListener('click',(e)=> {
+        e.preventDefault();
+        overallPercentage=0.25;
+        console.log(overallPercentage);
+    }
+    );
+
+    FiftyPercent.addEventListener('click',(e)=> {
+        e.preventDefault();
+        overallPercentage=0.5;
+        console.log(overallPercentage);
+    }
+    );
+
 
     CustomPercent.addEventListener('input', (e) => {
         const value = parseFloat(e.target.value);
